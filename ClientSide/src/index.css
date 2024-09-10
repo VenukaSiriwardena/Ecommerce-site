@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.text-blue-custom {
+  color: #5B99C2;
+}
+
+.underline-custom {
+  text-decoration: underline;
+  text-decoration-color: #5B99C2;
+  text-decoration-thickness: 3px;
+  text-underline-offset: 12px;
+}
+
+@media (max-width: 767px) {
+  .underline-custom {
+    text-decoration: none;
+  }
+}
